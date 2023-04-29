@@ -7,13 +7,13 @@ root.geometry("520x300")
 
 
 def calculate_currency_value(): 
-    dollar= 19.45
-    num = 1
-    #currency = (TL*19.45)
+    dollar= 2
+    TL = 19.45
+    #currency = (TL*1)
     #dollar = dollar_var.get()
     #TL = TL_var.get()
-    currency = (num*dollar)
-    TL_var.set(f"Currency: {Currency:.2f}")
+    currency = (TL*dollar)
+    TL_var.set(f"Currency: {currency:.2f}")
     
     
 
