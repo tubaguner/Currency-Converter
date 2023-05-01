@@ -7,13 +7,10 @@ root.geometry("520x300")
 
 
 def calculate_currency_value(): 
-    dollar= 2
-    TL = 19.45
-    #currency = (TL*1)
-    #dollar = dollar_var.get()
-    #TL = TL_var.get()
-    currency = (TL*dollar)
-    TL_var.set(f"Currency: {currency:.2f}")
+    dollar = float(input("Enter the dollar amount: "))
+    exchange_rate= 19.45
+    TL = dollar * exchange_rate
+    TL_var.set(f"Exchange: {TL:.2f}")
     
     
 
